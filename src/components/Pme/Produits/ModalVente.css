@@ -1,0 +1,57 @@
+.vente-conteneur{
+    /* min-width: 50vh; */
+    width: 35%;
+    min-height: 35vh;
+    background-color: #ffffff;
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.sous-modale-vente{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.titre-vente{
+    text-transform: uppercase;
+    width: 100% ;
+    color: #ffffff;
+    background-color: #165b04;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+.input-vente{
+    width: 35rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    /* padding-top: 2rem; */
+}
+
+.total{
+    margin-left:2rem ;
+}
+.qte input {
+    width: 10rem;
+}
+.sous-modale-vente h2{
+    font-size: 1.5rem;
+}
+.pied-vente{
+    background-color: #165b04;
+    width: 100%;
+    height: 1.5rem;
+    margin-top: 4rem;
+}
+.b-valide{
+    background-color: #1c8200;
+    font-weight: bold;
+    color: #ffffff;
+    float: right;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+.recy-button{
+    margin-left: 14rem;
+}

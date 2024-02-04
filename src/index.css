@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container-principal{
+  width: 100%;
+  height: 100vh;
+}
+/* body{
+  box-sizing: border-box;
+} */
+
+header{
+  width: 100%;
+  height: 87vh;
+  background-image: url(./components/Header/Groupe58.png);
+  background-size: cover;
+ 
+}
+header h1{
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 900;
+  padding-top: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 72rem;
+  text-transform: uppercase;
+  font-size: 56px;
+  font-family: 'Montserrat';
+ opacity: 1;
+}
+
+
+header h1{
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 900;
+  padding-top: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 72rem;
+  text-transform: uppercase;
+  font-size: 56px;
+  font-family: 'Montserrat';
+ opacity: 1;
+}
+h2{
+  color: #165b04;
+  padding-left: 0.5rem;
+}
+.abonnez-vous{
+  background-color: #1c8200;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: large;
+  color: white;
+  top: 10rem;
+}
+
+/* produitItems */
+.produ .card{
+  transition: .5s ease-in-out;
+}
+
+.produ:hover .card{
+  opacity: 0.9;
+  box-shadow: 0 5px 5px;
+}
+
+/* Modal */
+
+.asideModal .modale:hover{
+  box-shadow: 0 15px 15px;
+}
